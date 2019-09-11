@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="" />
+    <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/decimal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/decimal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/static_test1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/static_test1/Test.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,45 +18,57 @@
     <session id="-648138832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="62" />
-          <entry key="project.open.time.0" value="42" />
+          <entry key="project.closed" value="72" />
+          <entry key="project.open.time.0" value="44" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="15" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="62" />
+          <entry key="project.open.time.4" value="19" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="175" />
+          <entry key="java" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="175" />
+          <entry key="JAVA" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
+          <entry key="dummy" value="4" />
           <entry key="ft" value="66" />
-          <entry key="java" value="33479" />
+          <entry key="java" value="36882" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33479" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="36882" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="VTL" value="66" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jianfei/weakreference/TestWeakReference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,18 +84,12 @@
       <find>encodeBase64</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jianfei/static_test/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/static_test/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/static_test/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/static_test1/TimeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/static_test1/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/extend_test/Cat.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/extend_test/Dog.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/extend_test/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/extend_test/Animal.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/poi/CellBean.java" />
         <option value="$PROJECT_DIR$/src/ZiQuDian.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/poi/Main.java" />
@@ -95,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/AESHelper.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/RSACoder.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/set_study/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/decimal/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/continu/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/character/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/FormatUtil.java" />
@@ -121,6 +131,16 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/stringtest/KeyValueObjectMobile.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/stringtest/Test.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/chartest/CharTest.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/decimal/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/countdownlatch/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/countdownlatch/Test1.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/bubbleshort/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/thread/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/thread/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/thread/LocalThread.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/weakreference/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/weakreference/TestWeakReference.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/bubbleshort/BubbleShort.java" />
       </list>
     </option>
   </component>
@@ -136,12 +156,12 @@
     <option name="width" value="1380" />
     <option name="height" value="970" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,24 +180,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="jianfei" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
-              <item name="chartest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566267739375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568200447864" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -207,7 +221,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CharTest">
+  <component name="RunManager" selected="Application.BubbleShort">
+    <configuration name="BubbleShort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.bubbleshort.BubbleShort" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianfei.bubbleshort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CharTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jianfei.chartest.CharTest" />
       <module name="JavaProject" />
@@ -221,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.stack.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.decimal.Main" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jianfei.stack.*" />
+          <option name="PATTERN" value="com.jianfei.decimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,12 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.calendar_study.Main" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.bubbleshort.Test" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jianfei.calendar_study.*" />
+          <option name="PATTERN" value="com.jianfei.bubbleshort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,25 +274,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.threadsafe.MyIndex" />
+    <configuration name="TestWeakReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.weakreference.TestWeakReference" />
       <module name="JavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jianfei.threadsafe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.stringtest.Test" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jianfei.stringtest.*" />
+          <option name="PATTERN" value="com.jianfei.weakreference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main (5)" />
-      <item itemvalue="Application.MyIndex" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.CharTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.TestWeakReference" />
+      <item itemvalue="Application.BubbleShort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleShort" />
+        <item itemvalue="Application.TestWeakReference" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CharTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MyIndex" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -362,16 +376,27 @@
       <workItem from="1565766243396" duration="2867000" />
       <workItem from="1566196608022" duration="3626000" />
       <workItem from="1566265155342" duration="2631000" />
+      <workItem from="1567050218090" duration="1312000" />
+      <workItem from="1567054854793" duration="5723000" />
+      <workItem from="1567063385344" duration="1429000" />
+      <workItem from="1567128520399" duration="607000" />
+      <workItem from="1567412571147" duration="1297000" />
+      <workItem from="1567476107706" duration="1078000" />
+      <workItem from="1567509044121" duration="308000" />
+      <workItem from="1567816784401" duration="535000" />
+      <workItem from="1567817925792" duration="1942000" />
+      <workItem from="1567827405728" duration="1073000" />
+      <workItem from="1568200050059" duration="398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138228000" />
+    <option name="totallyTimeSpent" value="153930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3891258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2979744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,9 +404,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" weight="0.45240763" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49778762" weight="0.47778982" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49778762" weight="0.47180045" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,55 +433,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ZiQuDian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/static_test1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/static_test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/static_test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/ziqudian_update/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="41" column="32" lean-forward="true" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/parse_excel/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="74" lean-forward="true" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="802">
@@ -471,24 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/byte_test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/static_test2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/bit_and_grb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -512,13 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/decimal/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -732,6 +687,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/decimal/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/countdownlatch/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/thread/LocalThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/bit_and_grb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/bubbleshort/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/bubbleshort/BubbleShort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/byte_test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/weakreference/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/weakreference/TestWeakReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>

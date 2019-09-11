@@ -1,7 +1,7 @@
 package com.jianfei.static_test1;
 
 public class Test {
-    Person person = new Person("Test");
+    Person person = new Person("Test1");
     static {
         System.out.println("test static");
     }
@@ -55,7 +55,7 @@ class MyClass extends Test {
 //test static
 //myClass static
 //person static
-//person Test
+//person Test1
 //test constructor
 //person myClass
 //myClass constructor
