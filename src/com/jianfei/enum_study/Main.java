@@ -7,6 +7,16 @@ public class Main {
 //            System.out.println("枚举遍历->" + enumTest.toString());
 //        }
         insertLogisticStatus(LogisticsStatusEnum.CUSTOMER_TAKE_OFF);
+        System.out.println("---------");
+        System.out.println("enum->" + EnumTest.MON);
+        System.out.println("GoodsStatus->" + GoodsStatus.分拣中.name());
+        System.out.println("GoodsStatus->" + GoodsStatus.配货中.name());
+        System.out.println("GoodsStatus->" + GoodsStatus.出货中.name());
+        System.out.println("GoodsStatus->" + GoodsStatus.运输途中.name());
+        System.out.println("GoodsStatus->" + GoodsStatus.到达香港自取点.name());
+        System.out.println("GoodsStatus->" + GoodsStatus.客人已取走.name());
+        String a = "分拣中";
+        System.out.println("equals->" + a.equals(GoodsStatus.分拣中.name()));
     }
 
     public static void insertLogisticStatus(LogisticsStatusEnum logisticsStatusEnum) {
