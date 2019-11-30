@@ -1,6 +1,7 @@
 package com.jianfei.collection;
 
 import java.util.*;
+import java.util.regex.Pattern;
 
 /**
  * author: JianfeiMa
@@ -51,5 +52,9 @@ public class Main {
             Map.Entry<String, String> entry = iterator.next();
             System.out.println("key->" + entry.getKey() + ";" + "value->" + entry.getValue());
         }
+        System.out.println("--------------------------------------");
+        List<String> student = new LinkedList<>();
+        boolean isMatches = Pattern.matches(".", "m");
+        System.out.println("是否匹配：" + isMatches);
     }
 }

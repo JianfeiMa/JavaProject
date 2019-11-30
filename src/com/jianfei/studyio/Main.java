@@ -30,6 +30,8 @@ public class Main {
             OutputStream objectOutStream = new ObjectOutputStream(byteArrayOutputStream);
             OutputStream printStream = new PrintStream("");
 
+            //---------------------------------------------------------
+
             //输入字符节点流
             Reader fileReader = new FileReader("");
             Reader pipedReader = new PipedReader();
