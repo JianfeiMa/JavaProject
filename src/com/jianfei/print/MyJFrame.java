@@ -11,6 +11,10 @@ import java.util.Properties;
  */
 public class MyJFrame extends JFrame {
 
+    public static void main(String[] args) {
+        new MyJFrame("aa").printFrameAction();
+    }
+
     public MyJFrame(String title) throws HeadlessException {
         super(title);
     }
