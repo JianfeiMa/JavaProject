@@ -25,14 +25,26 @@ public class Main {
             System.out.println("text:" +text);
         }
         System.out.println("-------------------------------");
-        Connection connection = Jsoup.connect("http://www.baidu.com");
-        try {
-            Document documentOfBaidu = connection.get();
-            String title = documentOfBaidu.title();
-            System.out.println("title:" + title);
+        int page = 10;
+        int result = 0;
+        for (int i = 0; i < page; i ++) {
 
-        } catch (IOException e) {
-            e.printStackTrace();
         }
+    }
+
+    public int pachongPage(String url) {
+        Document document = null;
+        try {
+            document = Jsoup.connect(url).userAgent("Mozilla").get();
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
+        }
+        Elements div = document.getElementsByClass("co_content8");
+        Elements table = div.select("table");
+        int result = table.size();
+        for (Element element : table) {
+
+        }
+        return 0;
     }
 }
