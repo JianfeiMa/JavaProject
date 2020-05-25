@@ -24,7 +24,7 @@ public class Main {
             OutputStream fileOutputStream = new FileOutputStream("");
             OutputStream pipedOutputStream = new PipedOutputStream();
             OutputStream byteArrayOutputStream = new ByteArrayOutputStream(30);
-            //输出字节节点流
+            //输出字节处理流
             OutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream);
             OutputStream dataOutStream = new DataOutputStream(pipedOutputStream);
             OutputStream objectOutStream = new ObjectOutputStream(byteArrayOutputStream);

@@ -17,7 +17,10 @@ import java.util.Base64;
 public class Main {
     public static void main(String[] args) throws UnsupportedEncodingException {
         //String s = "<Request service='RouteService' lang='zh-CN'><Head>BSPdevelop</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='444003077898'/></Body></Request>j8DzkIFgmlomPt0aLuwU";
-        String s = "<Request service='RouteService' lang='zh-CN'><Head>sxzz</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='444003077898'/></Body></Request>LkBmVneVTQe1meEiMidNN80lMbw6jkZp";
+        //String s = "<Request service='RouteService' lang='zh-CN'><Head>sxzz</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='444003077898'/></Body></Request>LkBmVneVTQe1meEiMidNN80lMbw6jkZp";
+        //String s = "<Request service='RouteService' lang='zh-CN'><Head>sxzz</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='191231101241020911'/></Body></Request>LkBmVneVTQe1meEiMidNN80lMbw6jkZp";
+        //String s = "<Request service='RouteService' lang='zh-CN'><Head>sxzz</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='442057338054'/></Body></Request>LkBmVneVTQe1meEiMidNN80lMbw6jkZp";
+        String s = "<Request service='RouteService' lang='zh-CN'><Head>sxzz</Head><Body><RouteRequest tracking_type='1' method_type='1' tracking_number='295121480738'/></Body></Request>LkBmVneVTQe1meEiMidNN80lMbw6jkZp";
         System.out.println(s);
         //String messageDigestResult = Md5Security.getMD5(s);
         String messageDigestResult = encodeByMd5(s);

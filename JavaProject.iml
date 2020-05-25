@@ -12,5 +12,6 @@
     <orderEntry type="library" name="gson-2.7" level="project" />
     <orderEntry type="library" name="netty-all-4.1.41.Final" level="project" />
     <orderEntry type="library" name="jsoup-1.12.1" level="project" />
+    <orderEntry type="library" name="jbarcode-0.2.8" level="project" />
   </component>
 </module>
