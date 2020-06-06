@@ -28,12 +28,12 @@ public class MyJFrame extends JFrame {
             // 获取工具箱自带的打印对象
             PrintJob printJob = kit.getPrintJob(this, "Print Frame", props);
             if(printJob != null) {
-                Graphics pg = printJob.getGraphics();// 获取打印对象的图形环境
-                if(pg != null) {
+                Graphics graphics = printJob.getGraphics();// 获取打印对象的图形环境
+                if(graphics != null) {
                     try {
-                        this.printAll(pg);// 打印该窗体及其所有的组件
+                        this.printAll(graphics);// 打印该窗体及其所有的组件
                     } finally {
-                        pg.dispose();// 注销图形环境
+                        graphics.dispose();// 注销图形环境
                     }
                 }
                 printJob.end();// 结束打印作业

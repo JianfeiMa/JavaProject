@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/sfexpresswaybillroute/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/sfexpresswaybillroute/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/studyio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/studyio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,9 +21,9 @@
     <session id="-648138832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="143" />
-          <entry key="project.open.time.0" value="83" />
-          <entry key="project.open.time.1" value="11" />
+          <entry key="project.closed" value="144" />
+          <entry key="project.open.time.0" value="84" />
+          <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="2" />
@@ -34,33 +32,33 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="148" />
+          <entry key="project.opened" value="150" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="405" />
+          <entry key="java" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="405" />
+          <entry key="JAVA" value="411" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
           <entry key="ft" value="66" />
-          <entry key="java" value="68806" />
+          <entry key="java" value="69691" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="68806" />
+          <entry key="JAVA" value="69691" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="VTL" value="66" />
         </counts>
@@ -68,7 +66,38 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/DefaultPrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/PrintMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jianfei/client/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/scanner/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/client/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/server/EchoServer.java" />
@@ -136,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/generic_study/Util.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/generic_study/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/print/PrintMain.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jsoup_study/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/security/Base64.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/security/MyMD5Util.java" />
@@ -146,6 +173,8 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/studyio/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jbarcode/PrintBarcodeUtil.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/print/DefaultPrinter.java" />
       </list>
     </option>
   </component>
@@ -167,7 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,17 +209,30 @@
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590379338570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591431364614" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -222,7 +264,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JbarcodeUtil">
+  <component name="RunManager" selected="Application.DefaultPrinter">
+    <configuration name="DefaultPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.print.DefaultPrinter" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianfei.print.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JbarcodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jianfei.jbarcode.JbarcodeUtil" />
       <module name="JavaProject" />
@@ -249,32 +304,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.jsoup_study.Main" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jianfei.jsoup_study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianfei.sfexpresswaybillroute.Main" />
-      <module name="JavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jianfei.sfexpresswaybillroute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PrintBarcodeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jianfei.jbarcode.PrintBarcodeUtil" />
       <module name="JavaProject" />
@@ -288,20 +317,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrintMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jianfei.print.PrintMain" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jianfei.print.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.JbarcodeUtil" />
       <item itemvalue="Application.PrintBarcodeUtil" />
+      <item itemvalue="Application.PrintMain" />
+      <item itemvalue="Application.DefaultPrinter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultPrinter" />
+        <item itemvalue="Application.PrintMain" />
         <item itemvalue="Application.JbarcodeUtil" />
         <item itemvalue="Application.PrintBarcodeUtil" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -463,11 +505,13 @@
       <workItem from="1587522705634" duration="2333000" />
       <workItem from="1588490675091" duration="906000" />
       <workItem from="1590375459318" duration="3405000" />
+      <workItem from="1591164059670" duration="2856000" />
+      <workItem from="1591430947164" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296201000" />
+    <option name="totallyTimeSpent" value="299378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,8 +524,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.336887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34434968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,16 +564,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/rsa/Base64.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/rsa/RSAEncrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/binarystudy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -697,20 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/PrintMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/jsoup_study/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -868,6 +889,37 @@
             <element signature="e#3451#3452#0" expanded="true" />
             <element signature="e#3490#3491#0" expanded="true" />
             <element signature="e#4557#4565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/print/SimpleDoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="52" lean-forward="true" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/PrintMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="72" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print/DefaultPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
