@@ -1,5 +1,10 @@
 package com.jianfei;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * author: JianfeiMa
  * email: majianfei93@163.com
@@ -25,5 +30,13 @@ public class Main {
         }
         String z = s.substring(0, s.lastIndexOf(","));
         System.out.println(z);
+        try {
+            DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+
+            Date date = dateFormat.parse("2020-07-30 09:10");
+            System.out.println(date.getTime());
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
     }
 }

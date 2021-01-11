@@ -27,6 +27,12 @@ public class Main {
         arrayList.add("JianfeiMa");
         arrayList.add("JianfeiMa");
 
+        hashSet.add(1);
+        hashSet.add(1);
+
+        linkedHashSet.add(1);
+        linkedHashSet.add(2);
+
         treeSet.add(8);
         treeSet.add(2);
         treeSet.add(5);

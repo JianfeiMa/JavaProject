@@ -60,5 +60,12 @@ public class DefaultPrinter {
         } catch (PrintException e) {
             e.printStackTrace();
         }
+        javax.print.PrintService printService1 = javax.print.PrintServiceLookup.lookupDefaultPrintService();
+        DocPrintJob docPrintJob1 = printService1.createPrintJob();
+        try {
+            docPrintJob1.print(doc, hashPrintRequestAttributeSet);
+        } catch (javax.print.PrintException printException) {
+            printException.printStackTrace();
+        }
     }
 }
