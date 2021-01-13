@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/collection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/collection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/print/DefaultPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/print/DefaultPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/sort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,9 +22,9 @@
     <session id="-648138832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="175" />
-          <entry key="project.open.time.0" value="98" />
-          <entry key="project.open.time.1" value="24" />
+          <entry key="project.closed" value="178" />
+          <entry key="project.open.time.0" value="99" />
+          <entry key="project.open.time.1" value="26" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
@@ -37,35 +33,35 @@
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="180" />
+          <entry key="project.opened" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="7" />
+          <entry key="class" value="8" />
           <entry key="ftl" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="478" />
+          <entry key="java" value="482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="7" />
+          <entry key="CLASS" value="8" />
           <entry key="FTL" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="478" />
+          <entry key="JAVA" value="482" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
           <entry key="ft" value="66" />
-          <entry key="java" value="76175" />
+          <entry key="java" value="77084" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="76175" />
+          <entry key="JAVA" value="77084" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="VTL" value="66" />
         </counts>
@@ -173,7 +169,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,31 +179,19 @@
             <path>
               <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
-              <item name="print_test" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610355097433" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610511059233" />
     <property name="last_opened_file_path" value="G:/F/pda/payment.ftl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -515,11 +498,14 @@
       <workItem from="1610069830408" duration="4238000" />
       <workItem from="1610348340832" duration="4252000" />
       <workItem from="1610352833360" duration="2283000" />
+      <workItem from="1610443201696" duration="613000" />
+      <workItem from="1610505028273" duration="628000" />
+      <workItem from="1610507555813" duration="3327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="367322000" />
+    <option name="totallyTimeSpent" value="371890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,7 +519,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2228145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22921109" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -542,7 +528,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" weight="0.5759219" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" weight="0.34273317" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49778762" weight="0.527115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,13 +557,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/security/DESBase64Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/security/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -839,30 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="e#300#308#0" expanded="true" />
-            <element signature="e#360#368#0" expanded="true" />
-            <element signature="e#412#420#0" expanded="true" />
-            <element signature="e#467#476#0" expanded="true" />
-            <element signature="e#534#543#0" expanded="true" />
-            <element signature="e#589#598#0" expanded="true" />
-            <element signature="e#652#668#0" expanded="true" />
-            <element signature="e#727#745#0" expanded="true" />
-            <element signature="e#812#830#0" expanded="true" />
-            <element signature="e#885#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintJFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3689#3690#0" expanded="true" />
-            <element signature="e#3779#3780#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,10 +874,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="87" column="36" lean-forward="true" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/itextpdf-5.5.5.jar!/com/itextpdf/xmp/XMPUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-992">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="226">
+          <caret line="244" column="64" lean-forward="true" selection-start-line="244" selection-start-column="64" selection-end-line="244" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

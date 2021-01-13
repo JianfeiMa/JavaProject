@@ -4,6 +4,8 @@ import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfWriter;
+import com.itextpdf.tool.xml.XMLWorkerFontProvider;
+import com.itextpdf.tool.xml.XMLWorkerHelper;
 import com.spire.pdf.PdfDocument;
 import org.junit.Test;
 
@@ -12,11 +14,18 @@ import javax.print.attribute.DocAttributeSet;
 import javax.print.attribute.HashDocAttributeSet;
 import javax.print.attribute.HashPrintRequestAttributeSet;
 import javax.print.attribute.PrintRequestAttributeSet;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.print.PageFormat;
 import java.awt.print.Paper;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
 import java.io.*;
+import java.nio.charset.Charset;
 
 public class PrintClass {
 
@@ -164,13 +173,47 @@ public class PrintClass {
             }
     }
 
-    private String createPDFDocument() {
-        String file = "G:\\test\\Helloworld.PDF";
+    public void htmlToPdf(String targetPdfFilePath, String htmlContent) {
+//        Document document = new Document();
+//        try {
+//            // 建立书写器
+//            PdfWriter pdfWriter = PdfWriter.getInstance(document, new FileOutputStream(targetPdfFilePath));
+//            document.open();
+//            XMLWorkerFontProvider xmlWorkerFontProvider = new XMLWorkerFontProvider(XMLWorkerFontProvider.DONTLOOKFORFONTS);
+//            xmlWorkerFontProvider.register("simhei.ttf");
+//            XMLWorkerHelper xmlWorkerHelper = XMLWorkerHelper.getInstance();
+//            xmlWorkerHelper.parseXHtml(pdfWriter, document, new ByteArrayInputStream(htmlContent.getBytes()), Charset.forName("UTF-8"), xmlWorkerFontProvider);
+//        } catch (UnsupportedEncodingException e) {
+//            e.printStackTrace();
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        } catch (DocumentException e) {
+//            e.printStackTrace();
+//        } finally {
+//            document.close();
+//        }
+
+        try {
+            Document document = new Document();
+            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(targetPdfFilePath));
+            document.open();
+            XMLWorkerHelper.getInstance().parseXHtml(writer, document, new ByteArrayInputStream(htmlContent.getBytes("Utf-8")), Charset.forName("UTF-8"));
+            document.close();
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    private String createPDFDocument(String content) {
+        String file = "G:\\test\\Helloworld-" + content + ".pdf";
         try {
             Document document = new Document();
             PdfWriter.getInstance(document, new FileOutputStream(file));
             document.open();
-            document.add(new Paragraph("Hello World"));
+            document.add(new Paragraph("Hello World  这是第" + content + "张打印"));
             document.close();
         } catch (DocumentException e) {
             e.printStackTrace();
@@ -181,9 +224,73 @@ public class PrintClass {
     }
 
     public static void main(String[] args) {
-//        new PrintClass().printService("G:/test/test.docx");
-        PrintClass printClass = new PrintClass();
-        String file = printClass.createPDFDocument();
-        printClass.testPrint2(file);
+
+        JFrame jFrame = new JFrame();
+        Container container = jFrame.getContentPane();
+        container.setLayout(new BorderLayout());
+        jFrame.setBounds(0, 0, 400, 500);
+        jFrame.setDefaultCloseOperation(2);
+
+        JPanel jPanelNorth = new JPanel();
+        jPanelNorth.setLayout(new FlowLayout());
+        jPanelNorth.add(new JLabel("test"));
+        JButton button = new JButton("批量打印3张");
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append("<!doctype html>");
+                stringBuilder.append("<html lang=\"en\">");
+                stringBuilder.append("<head>");
+                stringBuilder.append("<title>Document</title>");
+                stringBuilder.append("</head>");
+                stringBuilder.append("<body style=\"font-size:12.0pt; font-family:微软雅黑\">");
+                stringBuilder.append("<div>");
+                stringBuilder.append("This is English");
+                stringBuilder.append("</div>");
+                stringBuilder.append("<div>");
+                stringBuilder.append("这是中文文字");
+                stringBuilder.append("</div>");
+                stringBuilder.append("<div>");
+                stringBuilder.append("123456");
+                stringBuilder.append("</div>");
+                stringBuilder.append("</body>");
+                stringBuilder.append("</html>");
+                PrintClass printClass = new PrintClass();
+                printClass.htmlToPdf("G:\\test\\test_english_chines_digital.pdf", stringBuilder.toString());
+                for (int i = 0; i < 5; i ++) {
+                    System.out.println("on click");
+                    //PrintClass printClass = new PrintClass();
+                    //String file = printClass.createPDFDocument(String.valueOf(i));
+                    //printClass.testPrint2(file);
+                }
+            }
+        });
+        container.add(jPanelNorth, "North");
+        container.add(button);
+
+        JPanel jPanelCenter = new JPanel();
+        jPanelCenter.setName("jPanelCenter");
+        jPanelCenter.setLayout(null);
+        JLabel jLabelOutGoodsNumberKey = new JLabel("OutGoodsNumber：");
+        jLabelOutGoodsNumberKey.setBounds(10, 0, 120, 20);
+        jLabelOutGoodsNumberKey.setBorder(BorderFactory.createLineBorder(Color.black));
+        JLabel jLabelOutGoodsNumberValue = new JLabel("888");
+        jLabelOutGoodsNumberValue.setBounds(130, 0, 120, 20);
+        jLabelOutGoodsNumberValue.setBorder(BorderFactory.createLineBorder(Color.black));
+        JLabel jLabelGoodsTypeKey = new JLabel("GoodsType：");
+        jLabelGoodsTypeKey.setBounds(10, 20, 120, 20);
+        jLabelGoodsTypeKey.setBorder(BorderFactory.createLineBorder(Color.black));
+        JLabel jLabelGoodsTypeValue = new JLabel("GeneralGoods");
+        jLabelGoodsTypeValue.setBounds(130, 20, 120, 20);
+        jLabelGoodsTypeValue.setBorder(BorderFactory.createLineBorder(Color.black));
+        JLabel jLabelChannelKey = new JLabel("Channel：");
+        jLabelChannelKey.setBounds(10, 40, 120, 20);
+        jLabelChannelKey.setBorder(BorderFactory.createLineBorder(Color.black));
+        JLabel jLabelChannelValue = new JLabel("Sea");
+        jLabelChannelValue.setBounds(130, 40, 120, 20);
+        jLabelChannelValue.setBorder(BorderFactory.createLineBorder(Color.black));
+        container.add(jPanelCenter, "South");
+        jFrame.setVisible(true);
     }
 }
