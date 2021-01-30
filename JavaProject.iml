@@ -16,5 +16,7 @@
     <orderEntry type="library" name="spire.pdf-3.11.6" level="project" />
     <orderEntry type="library" name="itextpdf-5.5.5" level="project" />
     <orderEntry type="library" name="xmlworker-5.5.13.2" level="project" />
+    <orderEntry type="library" name="Foo" level="project" />
+    <orderEntry type="library" name="sun.misc.BASE64Decoder" level="project" />
   </component>
 </module>

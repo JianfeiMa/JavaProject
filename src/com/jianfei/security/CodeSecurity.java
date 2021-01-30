@@ -61,5 +61,7 @@ public class CodeSecurity {
         //System.out.println("明文->" + plaintext);
 
         //System.out.println(MD5.getMD5("checkPhonecz20150803"));
+
+        System.out.println("md5->" + Md5Security.getMD5("oiv1hddkf45nitcfy3kkjhbkt3dadxgbbuyerNick亨利林88endCreated2021-01-21 23:59:59pageNo1pageSize100startCreated2021-01-21 00:00:00statusWAIT_SELLER_SEND_GOODStimestamp1611215982292oiv1hddkf45nitcfy3kkjhbkt3dadxgb"));
     }
 }

@@ -41,7 +41,7 @@ public class Main{
     private static void test2() {
         if (true) {
             try {
-                throw new Exception("参数异常");
+                throw new RuntimeException("参数异常");
             } catch(Exception e) {
                 e.printStackTrace();
             }
