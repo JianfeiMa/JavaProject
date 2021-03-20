@@ -290,7 +290,7 @@ public class PrintClass {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    File file = new File("H:\\ic_launcher.png");
+                    File file = new File("G:\\test\\4308977999254.png");
                     InputStream inputStream = null;
                     byte[] bytes = null;
                     inputStream = new FileInputStream(file.getAbsolutePath());
@@ -321,7 +321,7 @@ public class PrintClass {
                     stringBuilder.append("</div>");
                     stringBuilder.append("<img src=\"");
                     stringBuilder.append(message);
-                    stringBuilder.append("\"/>");
+                    stringBuilder.append("\" with=\"40px\" height=\"20px\"/>");
                     stringBuilder.append("</body>");
                     stringBuilder.append("</html>");
                     PrintClass printClass = new PrintClass();
