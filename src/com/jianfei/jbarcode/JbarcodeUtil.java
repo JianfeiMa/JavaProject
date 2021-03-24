@@ -35,7 +35,7 @@ public class JbarcodeUtil {
     //设置条形码文本
     public static String TEXT = "";
     //创建jbarcode
-    private static JBarcode jbc = null;
+    private static JBarcode jBarcode = null;
 
     static JBarcode getJBarcode() throws InvalidAtributeException {
         /**
@@ -50,16 +50,16 @@ public class JbarcodeUtil {
          *barcode.setCheckDigit(true); //是否检查数字
          *barcode.setShowCheckDigit(false); //是否显示检查数字
          */
-        if (jbc == null) {
+        if (jBarcode == null) {
             //生成code128
-            jbc = JBarcodeFactory.getInstance().createCode128();
-            jbc.setEncoder(Code128Encoder.getInstance());
-            jbc.setTextPainter(CustomTextPainter.getInstance());
-            jbc.setBarHeight(BARCODE_HEIGHT);
-            jbc.setXDimension(Double.valueOf(0.8).doubleValue());
-            jbc.setShowText(false);
+            jBarcode = JBarcodeFactory.getInstance().createCode128();
+            jBarcode.setEncoder(Code128Encoder.getInstance());
+            jBarcode.setTextPainter(CustomTextPainter.getInstance());
+            jBarcode.setBarHeight(BARCODE_HEIGHT);
+            jBarcode.setXDimension(Double.valueOf(0.8).doubleValue());
+            jBarcode.setShowText(false);
         }
-        return jbc;
+        return jBarcode;
     }
 
     /**

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,9 +22,9 @@
     <session id="-648138832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="193" />
-          <entry key="project.open.time.0" value="107" />
-          <entry key="project.open.time.1" value="28" />
+          <entry key="project.closed" value="198" />
+          <entry key="project.open.time.0" value="109" />
+          <entry key="project.open.time.1" value="31" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
@@ -32,7 +33,7 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="199" />
+          <entry key="project.opened" value="204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +44,8 @@
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="538" />
+          <entry key="java" value="542" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -51,9 +53,9 @@
           <entry key="CLASS" value="13" />
           <entry key="FTL" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="538" />
+          <entry key="JAVA" value="542" />
           <entry key="Manifest" value="6" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="SPI" value="1" />
         </counts>
       </usages-collector>
@@ -61,13 +63,14 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="ft" value="66" />
-          <entry key="java" value="79671" />
+          <entry key="java" value="79725" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="79671" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="JAVA" value="79725" />
+          <entry key="PLAIN_TEXT" value="51" />
           <entry key="VTL" value="66" />
         </counts>
       </usages-collector>
@@ -93,7 +96,11 @@
       <find>EchoClientHandler</find>
       <find>EchoServerHandler</find>
       <find>channelActive</find>
+      <find>jbc</find>
     </findStrings>
+    <replaceStrings>
+      <replace>jBarcode</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jianfei/poi/MainOfPOIStudy.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/SnowFlake.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/snowflake/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/imageio/Main.java" />
@@ -117,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/mail/AmazonSESSample.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/studyio/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jbarcode/PrintBarcodeUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/print/MyJFrame.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jlist/test3.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/jlist/Main.java" />
@@ -150,8 +155,10 @@
         <option value="$PROJECT_DIR$/src/com/jianfei/imagetobase64/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/print_test/ImageTagProcessor.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/experience/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/jianfei/studypdf/README.txt" />
       </list>
     </option>
   </component>
@@ -174,6 +181,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,17 +207,24 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jianfei" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
+              <item name="studypdf" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616221861485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616559447472" />
     <property name="last_opened_file_path" value="G:/F/pda/payment.ftl" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -535,11 +550,16 @@
       <workItem from="1615013566820" duration="1707000" />
       <workItem from="1615975220934" duration="51000" />
       <workItem from="1616210428932" duration="5068000" />
+      <workItem from="1616232588519" duration="32000" />
+      <workItem from="1616552866603" duration="17000" />
+      <workItem from="1616553173474" duration="1452000" />
+      <workItem from="1616557987396" duration="1050000" />
+      <workItem from="1616559204378" duration="369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400775000" />
+    <option name="totallyTimeSpent" value="403695000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,7 +573,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.271855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28731343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -591,27 +611,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/spire.pdf-3.11.6.jar!/com/spire/pdf/PdfDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2856">
-          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/testmd5/Md5Security.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/security/MyMD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/security/Md5Security.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -820,9 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="66" column="61" lean-forward="true" selection-start-line="66" selection-start-column="61" selection-end-line="66" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,16 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -903,6 +889,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/jbarcode/PrintBarcodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/jbarcode/JbarcodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/studypdf/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/studypdf/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
         </state>
       </provider>
     </entry>

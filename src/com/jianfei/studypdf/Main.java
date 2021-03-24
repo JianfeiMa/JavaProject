@@ -51,7 +51,7 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    File file = new File("G:\\test\\4308977999254.png");
+                    File file = new File("G:\\test\\test.png");
                     InputStream inputStream = null;
                     byte[] bytes = null;
                     inputStream = new FileInputStream(file.getAbsolutePath());
