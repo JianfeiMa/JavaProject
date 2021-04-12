@@ -4,6 +4,7 @@ package com.jianfei.trycatchfinally;
  * author: JianfeiMa
  * email: majianfei93@163.com
  * created date: 2019-10-05 08:31
+ * auto certificate manage envirement
  */
 public class FinallyTest {
     public static void main(String[] args) {

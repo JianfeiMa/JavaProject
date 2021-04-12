@@ -24,6 +24,15 @@ public class CharTest {
         System.out.println("输出1字符的二进制->" + Integer.toBinaryString(testCharOne));
         System.out.println("输出1字符的十进制->" + Integer.toUnsignedLong(testCharOne));
         System.out.println("------------------------------------------");
+
+
+        System.out.println("开始打印16进制的0");
+        //0 1 2 3 4 5 6 7 8 9 A B C D E F
+        char aa = '}';
+        System.out.println("打印}字符的ASCII->" + Integer.toUnsignedLong(aa));
+        byte myTest1 = 0x10;
+        System.out.println(myTest1);
+
         File file = new File("C:\\study_char_one.txt");
         try {
             InputStream inputStream = new FileInputStream(file);

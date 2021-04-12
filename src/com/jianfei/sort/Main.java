@@ -7,25 +7,46 @@ import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {3, 7, 4, 8, 9, 2, 3, 7,47, 238, 9, 0, 64, 790, 2, 649, 1, 2379, 8, 6, 2, 3, 6, 4};
-        for (int i = 0; i < arr.length -1; i ++) {
-            for (int j = 0; j < arr.length - 1 - i; j ++) {
-                int p = arr.length - 1 - i;
-                System.out.println("内层循环结束条件:" + p);
+        int[] arr = {3, 7, 4, 8, 9, 2, 3, 7, 47, 238, 9, 0, 64, 790, 2, 649, 1, 2379, 8, 6, 2, 3, 6, 4};
+        int outCondition = arr.length - 1;
+        int i = 0;
+        for (; i < outCondition; i ++) {
+            /**
+             * 内层循环结束的条件=外层循环结束的条件-1
+             */
+            int innerCondition = outCondition - i;
+
+            int j = 0;
+            for (; j < innerCondition; j ++) {
+
+                System.out.println("打印j->" + j);
+
+                /**
+                 * 两两相邻从数组拿出来比较
+                 */
                 int z = arr[j];
                 int y = arr[j + 1];
-                System.out.println("z->" + z);
-                System.out.println("y->" + y);
-                if (z < y) {
+
+                System.out.println("前一个->" + z + ";后一个->" + y);
+
+                /**
+                 * 从大到小排序，先冒泡出最小，再冒泡出次小的，以此类推，最后一轮剩下就是最大的
+                 */
+                if (z > y) {
                     int temporary = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temporary;
                 }
-                System.out.println("--------------------");
+
+            }
+            System.out.println("-----外层结束-----");
+            for (int z = 0; z < arr.length; z++) {
+                System.out.println("打印一下排序先->" + arr[z]);
             }
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        System.out.println("----------最终排序结果----------");
+        for (int z = 0; z < arr.length; z++) {
+            System.out.println(arr[z]);
         }
 
 //        int[][] brr = new int[3][4];
@@ -54,8 +75,8 @@ public class Main {
         String[] s = {"190608", "190608", "190608", "190607", "190607", "190606"};
         //TreeSet<String> treeSet = new TreeSet<>();
         Set<String> set = new TreeSet<String>();
-        for (int i = 0; i < s.length; i++) {
-            set.add(s[i]);
+        for (int ii = 0; ii < s.length; ii++) {
+            set.add(s[ii]);
         }
         for (String ts : set) {
             System.out.println("->" + ts);
