@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e31de9c4-8e0b-4a3a-a38f-e2cc981f89cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/chartest/CharTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/chartest/CharTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/sort/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/sort/SortUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jianfei/trycatchfinally/FinallyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jianfei/trycatchfinally/FinallyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,9 +21,9 @@
     <session id="-648138832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="204" />
-          <entry key="project.open.time.0" value="111" />
-          <entry key="project.open.time.1" value="35" />
+          <entry key="project.closed" value="206" />
+          <entry key="project.open.time.0" value="112" />
+          <entry key="project.open.time.1" value="36" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="2" />
@@ -36,7 +32,7 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="210" />
+          <entry key="project.opened" value="212" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,7 +43,7 @@
           <entry key="ftl" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="624" />
+          <entry key="java" value="626" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -56,7 +52,7 @@
           <entry key="CLASS" value="13" />
           <entry key="FTL" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="624" />
+          <entry key="JAVA" value="626" />
           <entry key="Manifest" value="6" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SPI" value="1" />
@@ -66,13 +62,13 @@
         <counts>
           <entry key="dummy" value="17" />
           <entry key="ft" value="66" />
-          <entry key="java" value="82520" />
+          <entry key="java" value="83303" />
           <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="82520" />
+          <entry key="JAVA" value="83303" />
           <entry key="PLAIN_TEXT" value="51" />
           <entry key="VTL" value="66" />
         </counts>
@@ -188,6 +184,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,81 +216,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="jianfei" type="462c0819:PsiDirectoryNode" />
-              <item name="print" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
               <item name="print_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jianfei" type="462c0819:PsiDirectoryNode" />
-              <item name="studypdf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="awt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="javax" type="462c0819:PsiDirectoryNode" />
-              <item name="swing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618192557607" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618297206940" />
     <property name="last_opened_file_path" value="G:/F/pda/payment.ftl" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -630,11 +565,13 @@
       <workItem from="1617335400688" duration="1278000" />
       <workItem from="1617347318715" duration="7555000" />
       <workItem from="1618188777430" duration="4148000" />
+      <workItem from="1618293703806" duration="3514000" />
+      <workItem from="1618297363103" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426153000" />
+    <option name="totallyTimeSpent" value="430081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -648,7 +585,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3065032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3128998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1022,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3460">
-          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/swing/JFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -1043,6 +970,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jianfei/print_test/PrintClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6137">
+          <caret line="361" lean-forward="true" selection-start-line="361" selection-end-line="361" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

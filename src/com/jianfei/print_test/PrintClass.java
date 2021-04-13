@@ -319,35 +319,53 @@ public class PrintClass {
                     stringBuilder.append("<div>");
                     stringBuilder.append("123456");
                     stringBuilder.append("</div>");
+                    stringBuilder.append("<div style=\"height: 20px;\"></div>");
+                    stringBuilder.append("<div><font style=\"font-weight: bold; font-size: 20px; color: #4f167e\">BUYUP物流中转站</font><br/><font style=\"font-size: 12px;\">2021-04-13 13:23:25</font></div>");
+                    stringBuilder.append("<table style=\"width: 320px; margin-top: 0;\" border=\"1px\" cellspacing=\"0px\" cellpadding=\"4px\">");
+
+                    stringBuilder.append("<tr style=\"text-align: center;\">");
+                    stringBuilder.append("<td colspan=\"2\">");
+                    stringBuilder.append("<font style=\"font-weight: bold; font-size: 20px;\">");
+                    stringBuilder.append("75439171304186");
+                    stringBuilder.append("</font>");
+                    stringBuilder.append("</td>");
+                    stringBuilder.append("</tr>");
+
+                    stringBuilder.append("<tr style=\"text-align: center;\">");
+                    stringBuilder.append("<td colspan=\"2\">");
                     stringBuilder.append("<img src=\"");
                     stringBuilder.append(message);
                     stringBuilder.append("\" with=\"40px\" height=\"20px\"/>");
-                    stringBuilder.append("<div style=\"height: 10px;\"></div>");
-                    stringBuilder.append("<table border=\"1px\" cellspacing=\"0px\" cellpadding=\"4px\">");
-                    stringBuilder.append("<tr>");
-                    stringBuilder.append("<td>");
-                    stringBuilder.append("姓名");
-                    stringBuilder.append("</td>");
-                    stringBuilder.append("<td>");
-                    stringBuilder.append("年龄");
                     stringBuilder.append("</td>");
                     stringBuilder.append("</tr>");
-                    stringBuilder.append("<tr>");
+
+                    stringBuilder.append("<tr style=\"text-align: center;\">");
                     stringBuilder.append("<td>");
-                    stringBuilder.append("张三");
+                    stringBuilder.append("集：东莞");
                     stringBuilder.append("</td>");
                     stringBuilder.append("<td>");
-                    stringBuilder.append("27");
-                    stringBuilder.append("</td>");
-                    stringBuilder.append("</tr>");
-                    stringBuilder.append("<tr>");
-                    stringBuilder.append("<td>");
-                    stringBuilder.append("李四");
-                    stringBuilder.append("</td>");
-                    stringBuilder.append("<td>");
-                    stringBuilder.append("28");
+                    stringBuilder.append("末：香港");
                     stringBuilder.append("</td>");
                     stringBuilder.append("</tr>");
+
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td colspan=\"2\">");
+                    stringBuilder.append("<div style=\"height: 60px;\">收：13138742085&nbsp;&nbsp;张三&nbsp;&nbsp;香港九龙科技大道88号</div>");
+                    stringBuilder.append("</td>");
+                    stringBuilder.append("</tr>");
+
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td colspan=\"2\">");
+                    stringBuilder.append("<div style=\"height: 60px;\">寄：13138742085&nbsp;&nbsp;张三&nbsp;&nbsp;东莞市石碣镇育贤路3号测试测试测试测试</div>");
+                    stringBuilder.append("</td>");
+                    stringBuilder.append("</tr>");
+
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td colspan=\"2\">");
+                    stringBuilder.append("<div style=\"height: 60px;\">寄件备注：内有易碎物品，请小心轻放！</div>");
+                    stringBuilder.append("</td>");
+                    stringBuilder.append("</tr>");
+
                     stringBuilder.append("</table>");
                     stringBuilder.append("</body>");
                     stringBuilder.append("</html>");
